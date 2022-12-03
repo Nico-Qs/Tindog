@@ -1,0 +1,176 @@
+
+/* TAGS STYLES */
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+
+p {
+    color: #8f8f8f;
+}
+
+/* Contenedores  y Secciones */
+.container-fluid{
+    padding: 7% 15%;
+}
+
+
+.seccion-coloreada {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.seccion-blanca {
+    background-color: #fff;
+}
+
+/* Titulo */
+
+#title .container-fluid{
+    text-align: left;
+    padding: 3% 15% 7%;
+}
+
+.div-imagen-titulo {
+    position: relative;
+}
+
+.imagen-titulo {
+    width: 50%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+
+/* Características */
+
+#features {
+    position: relative;
+}
+
+.box-caracteristica {
+    padding: 5%;
+}
+
+/* Testimonios */
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.texto-testimonio {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.testimonio-img {
+    margin: 20px;
+    width: 15%;
+    border-radius: 50%;
+}
+
+/* Press */
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+/* Seccion de Press */
+
+.img-prensa {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Precios */
+
+#pricing {
+    padding: 100px;
+}
+
+.texto-precio {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.columna-precio {
+    padding: 3% 2%;
+}
+
+
+/* Headings */
+
+.head-titulo {
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 3.7rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.head-seccion {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.head-feature {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Barra de navegacion */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light", sans-serif;
+}
+
+/* Iconos font-awesome */
+.icon-fa {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon-fa:hover {
+    color: #ff4c68;
+}
+.social-media {
+    margin: 25px 10px;
+}
+
+/* Botones de Descarga */
+.btn {
+    margin: 5% 3% 0 0;
+}
+
+/* Media Queries  para hacerlo full responsive*/
+
+@media (max-width: 1024px) {
+
+    #title {
+        text-align: center;
+    }
+    .imagen-titulo {
+        position: static;
+        transform: rotate(0deg);
+    }
+}
